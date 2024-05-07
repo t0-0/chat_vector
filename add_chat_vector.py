@@ -15,7 +15,7 @@ parser.add_argument(
 )
 parser.add_argument("-sl", "--skip_layernorm", action="store_true", default=False)
 parser.add_argument(
-    "-sel", "-skip_embedding_lmhead", action="store_true", default=False
+    "-sel", "--skip_embedding_lmhead", action="store_true", default=False
 )
 parser.add_argument("-c", "--coefficient", type=float, default=1)
 parser.add_argument("-debug", "--debug", action="store_true", default=False)
